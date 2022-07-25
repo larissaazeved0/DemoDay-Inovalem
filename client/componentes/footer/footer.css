@@ -1,0 +1,78 @@
+.section-footer {
+    width: 100%;
+    height: 200px;
+    background-color: var(--azul);
+    padding: 20px;
+    color: var(--branco);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.div1Footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divLogosFooter {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divLogosFooter2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 56px;
+    margin-top: 25px;
+}
+
+.logoInstagramLandingFooter,
+.logoLinkedinLandingFooter,
+.logoEmailLanding {
+    margin: 0 auto;
+    width: 22px;
+}
+
+.logoInovalemBranco {
+    width: 140px;
+}
+
+.div2Footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.inputEbuttonFooter {
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.inputFooter {
+    padding: 8px;
+    width: 250px;
+    background-color: var(--branco);
+    border-radius: 20px;
+}
+
+.buttonFooter {
+    padding: 8px;
+    border-radius: 20px;
+    width: 100px;
+    background-color: var(--laranja);
+    color: var(--branco);
+    border: 0;
+}
+
+.buttonFooter:hover {
+    cursor: pointer;
+}

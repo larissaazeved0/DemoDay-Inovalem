@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Orbitron:wght@400;500;600&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--laranja);
+  border-radius: 20px;
+}
+
+:root {
+  --branco: #f5f5f5;
+  --laranja: #ff6f29;
+  --azul: #2c67f2;
+  --preto: #232323;
+  --roxo: #8a265a;
+}

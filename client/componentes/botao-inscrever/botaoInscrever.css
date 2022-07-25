@@ -1,0 +1,36 @@
+.botao-inscrever {
+    padding: 8px 30px;
+    border-radius: 60px;
+    /* background: var(--laranja); */
+    color: var(--laranja);
+    /* border: 0; */
+    border: 1px solid var(--laranja);
+    font-weight: 600;
+    background: none;
+}
+
+.botao-inscrever:hover {
+    cursor: pointer;
+    background: var(--laranja);
+    color: var(--branco);
+    transition: 0.9s;
+}
+
+.botao-inscrever-elas {
+    padding: 8px 30px;
+    border-radius: 60px;
+    /* background: var(--laranja); */
+    color: var(--roxo);
+    /* border: 0; */
+    border: 1px solid var(--roxo);
+    font-weight: 600;
+    background: none;
+}
+
+.botao-inscrever-elas:hover {
+    cursor: pointer;
+    background: var(--roxo);
+    color: var(--branco);
+    transition: 0.9s;
+}
+
